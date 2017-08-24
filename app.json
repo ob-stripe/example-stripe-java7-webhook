@@ -1,0 +1,12 @@
+{
+  "name": "Stripe webhook Java 7 example",
+  "description": "Stripe webhook example with Java 7",
+  "repository": "https://github.com/ob-stripe/example-stripe-java7-webhook",
+  "keywords": ["stripe", "webhook", "java"],
+  "env": {
+    "STRIPE_ENDPOINT_SECRET": {
+      "description": "Stripe webhook endpoint signing secret -- find this at https://dashboard.stripe.com/account/webhooks (it'll look like whsec_****)",
+      "required": true
+    }
+  }
+}
